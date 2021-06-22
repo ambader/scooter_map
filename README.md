@@ -39,3 +39,4 @@ ax = ds.plot(figsize=(10, 10), alpha=0.1, column='count_', cmap='RdPu', legend=T
 ctx.add_basemap(ax, zoom=12)
 plt.savefig("scooter_dens.png",dpi=500)
 ```
+![](https://raw.githubusercontent.com/ambader/scooter_map/main/img/scooter_dens.png)
