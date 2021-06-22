@@ -1,6 +1,8 @@
 # scooter_map
 Map scooter use with contextily
 
+The .xlsx file contains the status report of a commercial e-scooter fleet in Heidelberg and Mannheim.
+
 ## Prepare csv and shapefile from .xlsx
 
 ```python
