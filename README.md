@@ -2,7 +2,8 @@
 Map scooter use with contextily
 
 ## Prepare csv and shapefile from .xlsx
-´´´
+
+```python
 cd ..\data_prep #contains .xlsx file
 python prep_scooter.py
-´´´
+```
