@@ -34,7 +34,7 @@ plt.savefig("scooter_all.png",dpi=500)
 ```
 ## Plot spot desity
 ```python
-ax = ds.plot(figsize=(10, 10), alpha=0.5, edgecolor='k')
-ctx.add_basemap(ax, zoom=12, source = ctx.providers.OpenStreetMap.Mapnik)
-plt.savefig("scooter_all.png",dpi=500)
+ax = ds.plot(figsize=(10, 10), alpha=0.1, column='count_', cmap='RdPu', legend=True, legend_kwds={'shrink': 0.81})
+ctx.add_basemap(ax, zoom=12)
+plt.savefig("scooter_dens.png",dpi=500)
 ```
