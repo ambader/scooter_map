@@ -7,7 +7,6 @@ The .xlsx file contains the status report of a commercial e-scooter fleet in Hei
 ![](https://raw.githubusercontent.com/ambader/scooter_map/main/img/scooter_sns.png)
 
 ## Prepare csv and shapefile from .xlsx
-
 ```python
 cd ..\data_prep #contains .xlsx file
 python prep_scooter.py
