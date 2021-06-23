@@ -1,10 +1,10 @@
 # scooter_map
 Map scooter use with contextily
 
-The .xlsx file contains the status report of a commercial e-scooter fleet in Heidelberg and Mannheim. The prep_scooter.py file contains the code to generate a .csv and shapefiles to use geopandas.
+The .xlsx file contains the status report of a commercial e-scooter fleet in Heidelberg and Mannheim. The [prep_scooter.py](https://github.com/ambader/scooter_map/blob/main/data_prep/prep_scooter.py) file contains the code to generate a .csv and shapefiles to use geopandas.
 
 ## Preview
-[https://raw.githubusercontent.com/ambader/scooter_map/main/img/scooter_sns.png](https://raw.githubusercontent.com/ambader/scooter_map/main/img/scooter_sns.png)
+![](https://raw.githubusercontent.com/ambader/scooter_map/main/img/scooter_sns.png)
 
 ## Prepare csv and shapefile from .xlsx
 ```python
