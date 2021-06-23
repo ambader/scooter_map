@@ -1,5 +1,5 @@
 # scooter_map
-Map scooter use with contextily
+Create GeoDataFrame with contextily and plot e-scooter mobility with OpenStreetMap.
 
 The .xlsx file contains the status report of a commercial e-scooter fleet in Heidelberg and Mannheim. The [prep_scooter.py](https://github.com/ambader/scooter_map/blob/main/data_prep/prep_scooter.py) file contains the code to generate a .csv and shapefiles to use geopandas.
 
