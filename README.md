@@ -70,3 +70,18 @@ plt.tight_layout()
 plt.savefig("scooter_sns.png",dpi=250)
 ```
 ![](https://raw.githubusercontent.com/ambader/scooter_map/main/img/scooter_sns.png)
+
+## Plot both with plotly
+
+```python
+ds_p = ds[ds.licencePlate.isin(ds.licencePlate.unique()[:5])]
+
+import plotly.express as px
+
+fig = px.line_mapbox(ds_p, lat="lat", lon="lng", hover_name="licencePlate", hover_data=["licencePlate", "lastLocationUpdate"],color="licencePlate", zoom=12, height=300)
+fig.update_layout(mapbox_style="open-street-map")
+
+fig.update_layout(margin={"r":0,"t":0,"l":0,"b":0})
+fig.show()
+```
+![](https://raw.githubusercontent.com/ambader/scooter_map/main/img/plotly_scooter.gif)
