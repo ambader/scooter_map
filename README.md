@@ -71,7 +71,7 @@ plt.savefig("scooter_sns.png",dpi=250)
 ```
 ![](https://raw.githubusercontent.com/ambader/scooter_map/main/img/scooter_sns.png)
 
-## Plot both with plotly
+## Plot sample with plotly
 
 ```python
 ds_p = ds[ds.licencePlate.isin(ds.licencePlate.unique()[:5])]
